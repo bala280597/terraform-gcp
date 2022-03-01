@@ -21,7 +21,7 @@ resource "google_service_account" "sa-name" {
 }
 
 resource "google_container_cluster" "primary" {
-  name               = "marcellus-wallace"
+  name               = "Bala-cluster"
   location           = "us-central1-a"
   initial_node_count = 3
   node_config {
